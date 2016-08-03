@@ -11,7 +11,7 @@ class ArchivoController extends BaseController
         
         $subir = $file->move($ruta,$file->getClientOriginalName());    
 
-        return "Imagen subida con exito"        
+        return "Imagen subida con exito";        
 	}
 }
 ?>
